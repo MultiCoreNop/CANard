@@ -18,7 +18,7 @@ requires pySerial, which can be installed with pip::
 Example
 -------
 
-This examples goes on bus and prints received messages:
+This example goes on bus and prints received messages:
 
 .. code:: python
 
@@ -38,14 +38,14 @@ correctly.
 Using Peak CAN Tools
 ====================
 
-Peak CAN tools (also known as GridConnect) are support through SocketCAN. This
+Peak CAN tools (also known as GridConnect) are supported through SocketCAN. This
 functionality is only available on Linux
 
 For kernels 3.6 and newer, skip to step 5.
 
 1. Download the Peak `Linux driver`_.
 
-2. Install dependancies::
+2. Install dependencies::
 
     sudo apt-get install libpopt-dev
 
@@ -68,7 +68,7 @@ For kernels 3.6 and newer, skip to step 5.
 Example
 -------
 
-The device can now be accessed as a ``SocketCanDev``. This examples goes on bus and prints received messages:
+The device can now be accessed as a ``SocketCanDev``. This example goes on bus and prints received messages:
 
 .. code:: python
 
